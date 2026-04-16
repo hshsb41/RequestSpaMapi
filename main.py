@@ -424,9 +424,9 @@ def ckrpro():
 def health():
     return jsonify({"status": "ok"})
 
-# Yo line thik chha
+# Vercel ko lagi yo line chaincha (Main file ko bahira huna parcha)
+app = app 
 
-
-# Timro mistake yaha chha, 'if' thapa:
 if __name__ == "__main__":
+    # Yo line 'if' bhanda 4 wata space bhitra huna parcha
     app.run(host="0.0.0.0", port=5000, debug=False)
