@@ -424,5 +424,9 @@ def ckrpro():
 def health():
     return jsonify({"status": "ok"})
 
+# Vercel ले यो 'app' अब्जेक्ट खोज्छ
+app = app 
+
 if __name__ == "__main__":
+    # यो लाइन 'if' भन्दा ४ वटा स्पेस भित्र हुनुपर्छ
     app.run(host="0.0.0.0", port=5000, debug=False)
