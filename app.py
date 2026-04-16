@@ -424,5 +424,9 @@ def ckrpro():
 def health():
     return jsonify({"status": "ok"})
 
+# Vercel ko lagi yo line thapa
+app = app 
+
 if __name__ == "__main__":
+    # Local ma chalada yo use hunchha
     app.run(host="0.0.0.0", port=5000, debug=False)
